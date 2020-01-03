@@ -12,6 +12,6 @@ class SimpleClassTest extends FlatSpec with OneInstancePerTest {
 
   "a SimpleClassTest" should "test 1" in {
     val result = Await.result(SimpleObject.method(true, true), Duration(1, TimeUnit.SECONDS))
-    assert(Some(true) != result)
+    assert(Some(true) === result)
   }
 }
