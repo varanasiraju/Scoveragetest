@@ -37,3 +37,5 @@ parallelExecution in Test := false
 coverageEnabled := true
 
 (scalastyleConfigUrl in Compile) := Some(url("http://www.scalastyle.org/scalastyle_config.xml"))
+
+compile <<= (compile in Compile).dependsOn((scalastyle in Compile).toTask(""))
