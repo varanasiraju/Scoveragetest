@@ -35,3 +35,5 @@ publishArtifact in Test := false
 parallelExecution in Test := false
 
 coverageEnabled := true
+
+(scalastyleConfigUrl in Compile) := Some(url("http://www.scalastyle.org/scalastyle_config.xml"))
