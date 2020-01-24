@@ -10,6 +10,7 @@ It uses:
 * sbt scala samples
 * Scala test
 * Test
+* Test1
 * Scala Coverage Report
 * Scalatest for unit tests
 * Scoverage 1.5.0
