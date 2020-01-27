@@ -8,7 +8,7 @@ A sample program for demonstrating scoverage's code coverage. This sample is an 
 It uses:
 
 * sbt scala samples
-* sbt test
+* sbt test1
 * Scala Coverage Report
 * Scalatest for unit tests
 * Scoverage 1.5.0
