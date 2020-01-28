@@ -12,6 +12,7 @@ It uses:
 * Scala Coverage Report
 * Scalatest for unit tests
 * Scoverage 1.5.0
+* Test
 
 To run:
 
