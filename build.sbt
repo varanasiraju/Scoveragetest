@@ -24,9 +24,13 @@ libraryDependencies ++= Seq(
   compilerPlugin("org.scalamacros" %% "paradise" % "2.1.0" cross CrossVersion.full)
 )
 
-coverageMinimum := 70
+StatementcoverageMinimum := 70
 
-coverageFailOnMinimum := true
+BranchcoverageMinimum := 60
+
+StatementcoverageFailOnMinimum := true
+
+BranchcoverageFailOnMinimum := true
 
 coverageHighlighting := true
 
