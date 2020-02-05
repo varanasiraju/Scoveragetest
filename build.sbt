@@ -26,7 +26,7 @@ libraryDependencies ++= Seq(
 
 coverageMinimum := 90
 
-coverageFailOnMinimum := false
+coverageFailOnMinimum := true
 
 coverageHighlighting := true
 
